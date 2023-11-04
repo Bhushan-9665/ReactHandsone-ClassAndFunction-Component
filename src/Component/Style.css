@@ -1,0 +1,62 @@
+h1{
+    color: black;
+    text-shadow: rgb(61, 61, 134);
+}
+
+.Button-click{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+
+}
+
+.Button-click button{
+    height: 40px;
+    background-color: aqua;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.Class-Base{
+    /* display: flex;
+    justify-content: center; */
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 80%;
+    background-color: violet;
+    
+
+}
+
+.Fun-CSS{
+    color: black;
+}
+
+.Fuc-Box{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 80%;
+    background-color: aqua;
+
+
+}
+
+.Display-Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 13%;
+    position: relative;
+}
+
+.Display-Container .Display-Box1{
+    display: flex;
+    /* margin-right: 20%; */
+}
+
+.Display-Container .Display-Box2{
+    display: flex;
+    /* margin-left: 20%; */
+}
